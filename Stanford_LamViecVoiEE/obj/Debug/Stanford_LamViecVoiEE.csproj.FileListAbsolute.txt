@@ -1,0 +1,164 @@
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Stanford_LamViecVoiEE.dll.config
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Stanford_LamViecVoiEE.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Stanford_LamViecVoiEE.pdb
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\csc.exe
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\csc.exe.config
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\csc.rsp
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\csi.exe
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\csi.exe.config
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\csi.rsp
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.AppContext.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Collections.Immutable.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Console.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.IO.Compression.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.IO.FileSystem.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.IO.Pipes.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Reflection.Metadata.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Security.AccessControl.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Security.Claims.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Security.Principal.Windows.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.ValueTuple.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Xml.XPath.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\vbc.exe
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\vbc.exe.config
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\vbc.rsp
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\VBCSCompiler.exe
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\VBCSCompiler.exe.config
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Antlr3.Runtime.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Microsoft.Web.Infrastructure.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Newtonsoft.Json.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Helpers.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Mvc.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Optimization.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Razor.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.WebPages.Deployment.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.WebPages.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.WebPages.Razor.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\WebGrease.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Helpers.xml
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Mvc.xml
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Optimization.xml
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Razor.xml
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.WebPages.xml
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.WebPages.Deployment.xml
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.WebPages.Razor.xml
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Newtonsoft.Json.xml
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Antlr3.Runtime.pdb
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\obj\Debug\Stanford_LamViecVoiEE.csprojAssemblyReference.cache
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\obj\Debug\Stanford_LamViecVoiEE.csproj.CoreCompileInputs.cache
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\obj\Debug\Stanford_LamViecVoiEE.csproj.CopyComplete
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\obj\Debug\Stanford_LamViecVoiEE.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\obj\Debug\Stanford_LamViecVoiEE.pdb
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\EntityFramework.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\EntityFramework.SqlServer.dll
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\EntityFramework.xml
+G:\Stanford\Courses\ASP_Developer\A061901DEV\BaiGiang\Part-09\Sourcecodes\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\EntityFramework.SqlServer.xml
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Stanford_LamViecVoiEE.dll.config
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Stanford_LamViecVoiEE.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Stanford_LamViecVoiEE.pdb
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\csc.exe
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\csc.exe.config
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\csc.rsp
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\csi.exe
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\csi.exe.config
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\csi.rsp
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.Managed.Core.targets
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.AppContext.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Collections.Immutable.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Console.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.IO.Compression.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.IO.FileSystem.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.IO.Pipes.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Reflection.Metadata.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Security.AccessControl.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Security.Claims.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Security.Principal.Windows.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.ValueTuple.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Xml.XmlDocument.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Xml.XPath.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\vbc.exe
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\vbc.exe.config
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\vbc.rsp
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\VBCSCompiler.exe
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\roslyn\VBCSCompiler.exe.config
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Antlr3.Runtime.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\EntityFramework.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\EntityFramework.SqlServer.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Microsoft.Web.Infrastructure.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Newtonsoft.Json.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\PagedList.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\PagedList.Mvc.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Helpers.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Mvc.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Optimization.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Razor.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.WebPages.Deployment.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.WebPages.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.WebPages.Razor.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\WebGrease.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\EntityFramework.xml
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\EntityFramework.SqlServer.xml
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\PagedList.xml
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\PagedList.Mvc.xml
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Helpers.xml
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Mvc.xml
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Optimization.xml
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.Razor.xml
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.WebPages.xml
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.WebPages.Deployment.xml
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\System.Web.WebPages.Razor.xml
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Newtonsoft.Json.xml
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Antlr3.Runtime.pdb
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\obj\Debug\Stanford_LamViecVoiEE.csprojAssemblyReference.cache
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\obj\Debug\Stanford_LamViecVoiEE.csproj.CoreCompileInputs.cache
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\obj\Debug\Stanford_LamViecVoiEE.csproj.CopyComplete
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\obj\Debug\Stanford_LamViecVoiEE.dll
+E:\ASP.NET\New folder\HocVien\Tienhv\Part-09\Stanford_LamViecVoiEE\Stanford_LamViecVoiEE\obj\Debug\Stanford_LamViecVoiEE.pdb

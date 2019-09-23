@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "demo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Danh sách các số chẵn</h2>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item</li>
+    }
+</ul>
+

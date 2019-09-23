@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="QLBaiViet.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="stanfArticle">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="250" />
+          <Property Name="Description" Type="nvarchar" MaxLength="1000" />
+          <Property Name="ArticleContent" Type="ntext" />
+          <Property Name="Keyword" Type="nvarchar" MaxLength="500" />
+          <Property Name="ImageName" Type="nvarchar" MaxLength="250" />
+          <Property Name="ImagePath" Type="nvarchar" MaxLength="250" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="DateLastUpdate" Type="datetime" />
+          <Property Name="DateApproved" Type="datetime" />
+          <Property Name="Approved" Type="bit" />
+          <Property Name="DatePublish" Type="datetime" />
+          <Property Name="Published" Type="bit" />
+          <Property Name="Notes" Type="nvarchar" MaxLength="1000" />
+          <Property Name="AuthorName" Type="nvarchar" MaxLength="50" />
+          <Property Name="AuthorId" Type="int" />
+          <Property Name="CategoryId" Type="int" />
+          <Property Name="TypeId" Type="int" />
+          <Property Name="UserId" Type="int" />
+        </EntityType>
+        <EntityType Name="stanfCategory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CategoryName" Type="nvarchar" MaxLength="250" />
+          <Property Name="CategoryDescription" Type="nvarchar" MaxLength="1000" />
+          <Property Name="CategoryImageName" Type="nvarchar" MaxLength="50" />
+          <Property Name="NumberOrder" Type="int" />
+        </EntityType>
+        <EntityType Name="stanfTypes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TypeName" Type="nvarchar" MaxLength="250" />
+          <Property Name="TypeDescription" Type="nvarchar" MaxLength="500" />
+          <Property Name="NumberOrder" Type="int" />
+        </EntityType>
+        <EntityType Name="stanfUser">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" />
+          <Property Name="FullName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Avatar" Type="nvarchar" MaxLength="50" />
+          <Property Name="Sex" Type="int" />
+          <Property Name="Birthday" Type="datetime" />
+          <Property Name="Mobile" Type="nvarchar" MaxLength="20" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="IsAdmin" Type="bit" />
+          <Property Name="DateCreate" Type="datetime" />
+          <Property Name="DateLastUpdate" Type="datetime" />
+          <Property Name="Approved" Type="bit" />
+          <Property Name="DateApproved" Type="datetime" />
+          <Property Name="Description" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <Association Name="FK_stanfArticle_stanfCategory">
+          <End Role="stanfCategory" Type="Self.stanfCategory" Multiplicity="0..1" />
+          <End Role="stanfArticle" Type="Self.stanfArticle" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="stanfCategory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="stanfArticle">
+              <PropertyRef Name="CategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_stanfArticle_stanfTypes">
+          <End Role="stanfTypes" Type="Self.stanfTypes" Multiplicity="0..1" />
+          <End Role="stanfArticle" Type="Self.stanfArticle" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="stanfTypes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="stanfArticle">
+              <PropertyRef Name="TypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_stanfArticle_stanfUser">
+          <End Role="stanfUser" Type="Self.stanfUser" Multiplicity="0..1" />
+          <End Role="stanfArticle" Type="Self.stanfArticle" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="stanfUser">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="stanfArticle">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="QLBaiVietStoreContainer">
+          <EntitySet Name="stanfArticle" EntityType="Self.stanfArticle" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="stanfCategory" EntityType="Self.stanfCategory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="stanfTypes" EntityType="Self.stanfTypes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="stanfUser" EntityType="Self.stanfUser" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_stanfArticle_stanfCategory" Association="Self.FK_stanfArticle_stanfCategory">
+            <End Role="stanfCategory" EntitySet="stanfCategory" />
+            <End Role="stanfArticle" EntitySet="stanfArticle" />
+          </AssociationSet>
+          <AssociationSet Name="FK_stanfArticle_stanfTypes" Association="Self.FK_stanfArticle_stanfTypes">
+            <End Role="stanfTypes" EntitySet="stanfTypes" />
+            <End Role="stanfArticle" EntitySet="stanfArticle" />
+          </AssociationSet>
+          <AssociationSet Name="FK_stanfArticle_stanfUser" Association="Self.FK_stanfArticle_stanfUser">
+            <End Role="stanfUser" EntitySet="stanfUser" />
+            <End Role="stanfArticle" EntitySet="stanfArticle" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="QLBaiViet" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="stanfArticle">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="ArticleContent" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Keyword" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="ImageName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="ImagePath" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="DateCreated" Type="DateTime" Precision="3" />
+          <Property Name="DateLastUpdate" Type="DateTime" Precision="3" />
+          <Property Name="DateApproved" Type="DateTime" Precision="3" />
+          <Property Name="Approved" Type="Boolean" />
+          <Property Name="DatePublish" Type="DateTime" Precision="3" />
+          <Property Name="Published" Type="Boolean" />
+          <Property Name="Notes" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="AuthorName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="AuthorId" Type="Int32" />
+          <Property Name="CategoryId" Type="Int32" />
+          <Property Name="TypeId" Type="Int32" />
+          <Property Name="UserId" Type="Int32" />
+          <NavigationProperty Name="stanfCategory" Relationship="Self.FK_stanfArticle_stanfCategory" FromRole="stanfArticle" ToRole="stanfCategory" />
+          <NavigationProperty Name="stanfType" Relationship="Self.FK_stanfArticle_stanfTypes" FromRole="stanfArticle" ToRole="stanfTypes" />
+          <NavigationProperty Name="stanfUser" Relationship="Self.FK_stanfArticle_stanfUser" FromRole="stanfArticle" ToRole="stanfUser" />
+        </EntityType>
+        <EntityType Name="stanfCategory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="CategoryDescription" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="CategoryImageName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NumberOrder" Type="Int32" />
+          <NavigationProperty Name="stanfArticles" Relationship="Self.FK_stanfArticle_stanfCategory" FromRole="stanfCategory" ToRole="stanfArticle" />
+        </EntityType>
+        <EntityType Name="stanfType">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TypeName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="TypeDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="NumberOrder" Type="Int32" />
+          <NavigationProperty Name="stanfArticles" Relationship="Self.FK_stanfArticle_stanfTypes" FromRole="stanfTypes" ToRole="stanfArticle" />
+        </EntityType>
+        <EntityType Name="stanfUser">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Avatar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Sex" Type="Int32" />
+          <Property Name="Birthday" Type="DateTime" Precision="3" />
+          <Property Name="Mobile" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="IsAdmin" Type="Boolean" />
+          <Property Name="DateCreate" Type="DateTime" Precision="3" />
+          <Property Name="DateLastUpdate" Type="DateTime" Precision="3" />
+          <Property Name="Approved" Type="Boolean" />
+          <Property Name="DateApproved" Type="DateTime" Precision="3" />
+          <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="stanfArticles" Relationship="Self.FK_stanfArticle_stanfUser" FromRole="stanfUser" ToRole="stanfArticle" />
+        </EntityType>
+        <Association Name="FK_stanfArticle_stanfCategory">
+          <End Role="stanfCategory" Type="Self.stanfCategory" Multiplicity="0..1" />
+          <End Role="stanfArticle" Type="Self.stanfArticle" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="stanfCategory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="stanfArticle">
+              <PropertyRef Name="CategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_stanfArticle_stanfTypes">
+          <End Role="stanfTypes" Type="Self.stanfType" Multiplicity="0..1" />
+          <End Role="stanfArticle" Type="Self.stanfArticle" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="stanfTypes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="stanfArticle">
+              <PropertyRef Name="TypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_stanfArticle_stanfUser">
+          <End Role="stanfUser" Type="Self.stanfUser" Multiplicity="0..1" />
+          <End Role="stanfArticle" Type="Self.stanfArticle" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="stanfUser">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="stanfArticle">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="eNewsEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="stanfArticles" EntityType="Self.stanfArticle" />
+          <EntitySet Name="stanfCategories" EntityType="Self.stanfCategory" />
+          <EntitySet Name="stanfTypes" EntityType="Self.stanfType" />
+          <EntitySet Name="stanfUsers" EntityType="Self.stanfUser" />
+          <AssociationSet Name="FK_stanfArticle_stanfCategory" Association="Self.FK_stanfArticle_stanfCategory">
+            <End Role="stanfCategory" EntitySet="stanfCategories" />
+            <End Role="stanfArticle" EntitySet="stanfArticles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_stanfArticle_stanfTypes" Association="Self.FK_stanfArticle_stanfTypes">
+            <End Role="stanfTypes" EntitySet="stanfTypes" />
+            <End Role="stanfArticle" EntitySet="stanfArticles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_stanfArticle_stanfUser" Association="Self.FK_stanfArticle_stanfUser">
+            <End Role="stanfUser" EntitySet="stanfUsers" />
+            <End Role="stanfArticle" EntitySet="stanfArticles" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="QLBaiVietStoreContainer" CdmEntityContainer="eNewsEntities1">
+          <EntitySetMapping Name="stanfArticles">
+            <EntityTypeMapping TypeName="QLBaiViet.stanfArticle">
+              <MappingFragment StoreEntitySet="stanfArticle">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="ArticleContent" ColumnName="ArticleContent" />
+                <ScalarProperty Name="Keyword" ColumnName="Keyword" />
+                <ScalarProperty Name="ImageName" ColumnName="ImageName" />
+                <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="DateLastUpdate" ColumnName="DateLastUpdate" />
+                <ScalarProperty Name="DateApproved" ColumnName="DateApproved" />
+                <ScalarProperty Name="Approved" ColumnName="Approved" />
+                <ScalarProperty Name="DatePublish" ColumnName="DatePublish" />
+                <ScalarProperty Name="Published" ColumnName="Published" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+                <ScalarProperty Name="AuthorName" ColumnName="AuthorName" />
+                <ScalarProperty Name="AuthorId" ColumnName="AuthorId" />
+                <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+                <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="stanfCategories">
+            <EntityTypeMapping TypeName="QLBaiViet.stanfCategory">
+              <MappingFragment StoreEntitySet="stanfCategory">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+                <ScalarProperty Name="CategoryDescription" ColumnName="CategoryDescription" />
+                <ScalarProperty Name="CategoryImageName" ColumnName="CategoryImageName" />
+                <ScalarProperty Name="NumberOrder" ColumnName="NumberOrder" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="stanfTypes">
+            <EntityTypeMapping TypeName="QLBaiViet.stanfType">
+              <MappingFragment StoreEntitySet="stanfTypes">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+                <ScalarProperty Name="TypeDescription" ColumnName="TypeDescription" />
+                <ScalarProperty Name="NumberOrder" ColumnName="NumberOrder" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="stanfUsers">
+            <EntityTypeMapping TypeName="QLBaiViet.stanfUser">
+              <MappingFragment StoreEntitySet="stanfUser">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="Avatar" ColumnName="Avatar" />
+                <ScalarProperty Name="Sex" ColumnName="Sex" />
+                <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="DateLastUpdate" ColumnName="DateLastUpdate" />
+                <ScalarProperty Name="Approved" ColumnName="Approved" />
+                <ScalarProperty Name="DateApproved" ColumnName="DateApproved" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

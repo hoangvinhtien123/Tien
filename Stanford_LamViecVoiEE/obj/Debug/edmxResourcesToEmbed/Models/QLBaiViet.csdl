@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="eNewsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="stanfArticle">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="ArticleContent" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Keyword" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ImageName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ImagePath" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="DateCreated" Type="DateTime" Precision="3" />
+    <Property Name="DateLastUpdate" Type="DateTime" Precision="3" />
+    <Property Name="DateApproved" Type="DateTime" Precision="3" />
+    <Property Name="Approved" Type="Boolean" />
+    <Property Name="DatePublish" Type="DateTime" Precision="3" />
+    <Property Name="Published" Type="Boolean" />
+    <Property Name="Notes" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="AuthorName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AuthorId" Type="Int32" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="TypeId" Type="Int32" />
+    <Property Name="UserId" Type="Int32" />
+    <NavigationProperty Name="stanfCategory" Relationship="Self.FK_stanfArticle_stanfCategory" FromRole="stanfArticle" ToRole="stanfCategory" />
+    <NavigationProperty Name="stanfType" Relationship="Self.FK_stanfArticle_stanfTypes" FromRole="stanfArticle" ToRole="stanfTypes" />
+    <NavigationProperty Name="stanfUser" Relationship="Self.FK_stanfArticle_stanfUser" FromRole="stanfArticle" ToRole="stanfUser" />
+  </EntityType>
+  <EntityType Name="stanfCategory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CategoryDescription" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="CategoryImageName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NumberOrder" Type="Int32" />
+    <NavigationProperty Name="stanfArticles" Relationship="Self.FK_stanfArticle_stanfCategory" FromRole="stanfCategory" ToRole="stanfArticle" />
+  </EntityType>
+  <EntityType Name="stanfType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TypeDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="NumberOrder" Type="Int32" />
+    <NavigationProperty Name="stanfArticles" Relationship="Self.FK_stanfArticle_stanfTypes" FromRole="stanfTypes" ToRole="stanfArticle" />
+  </EntityType>
+  <EntityType Name="stanfUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Avatar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sex" Type="Int32" />
+    <Property Name="Birthday" Type="DateTime" Precision="3" />
+    <Property Name="Mobile" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsAdmin" Type="Boolean" />
+    <Property Name="DateCreate" Type="DateTime" Precision="3" />
+    <Property Name="DateLastUpdate" Type="DateTime" Precision="3" />
+    <Property Name="Approved" Type="Boolean" />
+    <Property Name="DateApproved" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="stanfArticles" Relationship="Self.FK_stanfArticle_stanfUser" FromRole="stanfUser" ToRole="stanfArticle" />
+  </EntityType>
+  <Association Name="FK_stanfArticle_stanfCategory">
+    <End Role="stanfCategory" Type="Self.stanfCategory" Multiplicity="0..1" />
+    <End Role="stanfArticle" Type="Self.stanfArticle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stanfCategory">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="stanfArticle">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stanfArticle_stanfTypes">
+    <End Role="stanfTypes" Type="Self.stanfType" Multiplicity="0..1" />
+    <End Role="stanfArticle" Type="Self.stanfArticle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stanfTypes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="stanfArticle">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stanfArticle_stanfUser">
+    <End Role="stanfUser" Type="Self.stanfUser" Multiplicity="0..1" />
+    <End Role="stanfArticle" Type="Self.stanfArticle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stanfUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="stanfArticle">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="eNewsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="stanfArticles" EntityType="Self.stanfArticle" />
+    <EntitySet Name="stanfCategories" EntityType="Self.stanfCategory" />
+    <EntitySet Name="stanfTypes" EntityType="Self.stanfType" />
+    <EntitySet Name="stanfUsers" EntityType="Self.stanfUser" />
+    <AssociationSet Name="FK_stanfArticle_stanfCategory" Association="Self.FK_stanfArticle_stanfCategory">
+      <End Role="stanfCategory" EntitySet="stanfCategories" />
+      <End Role="stanfArticle" EntitySet="stanfArticles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stanfArticle_stanfTypes" Association="Self.FK_stanfArticle_stanfTypes">
+      <End Role="stanfTypes" EntitySet="stanfTypes" />
+      <End Role="stanfArticle" EntitySet="stanfArticles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stanfArticle_stanfUser" Association="Self.FK_stanfArticle_stanfUser">
+      <End Role="stanfUser" EntitySet="stanfUsers" />
+      <End Role="stanfArticle" EntitySet="stanfArticles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

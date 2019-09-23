@@ -1,0 +1,224 @@
+﻿@model IEnumerable<Stanford_LamViecVoiEE.Models.stanfCategory>
+
+@{
+    ViewBag.Title = "ListChuDe";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ListChuDe</h2>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $("button.close").attr("style", "display:none;");
+
+        $("#btnThucHien").click(function () {
+
+            var loai = $("#chuDeId").val();
+
+            var tencd = $("#tenChuDe").val();
+
+            var mota = $("#moTa").val();
+
+            //Xóa lỗi trước đó nếu có thông báo
+
+            $("#error").text("");
+
+            if (tencd.length == 0) {
+
+                $("#error").text("Bạn cần phải nhập tên chủ đề");
+
+                return;
+
+            }
+
+            //tạo đối tượng form data
+
+            var formData = new FormData();
+
+            formData.append('tenchude', tencd);
+
+            formData.append('mota', mota);
+
+            //Gọi hàm post để đẩy dữ liệu lên server
+
+            $.ajax({
+
+                type: "POST",
+
+                contentType: false,
+
+                processData: false,
+
+                url: "/ChuDe/ThemMoi",
+
+                data: formData,
+
+                dataType: "json",
+
+                async: "false",
+
+                success: function (data) {
+
+                    //debugger;
+
+                    if (data != null) {
+
+                        alert(data);
+
+                        window.location.href = "/ChuDe/danhsach";
+
+                    } // if
+
+                    else
+
+                        alert('Có lỗi xảy ra trong quá trình thực hiện');
+
+                },
+
+                error: function (result, textStatus, errorThrown) {
+
+                    alert("Error:" + errorThrown + " - " + textStatus + " - " + result);
+
+                }
+
+            });
+
+        });
+
+    });
+
+    //Xóa thông tin khi đóng form
+
+    function XoaThongTinForm() {
+
+        $("#tieude").text("Thêm mới chủ đề");
+
+        $("#tenChuDe").val("");
+
+        $("#moTa").val("");
+
+    }
+
+</script>
+<p>
+    @Html.ActionLink("Thêm mới", "ThemMoi")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoryName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoryDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoryImageName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumberOrder)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CategoryName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CategoryDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CategoryImageName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumberOrder)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
+<div style="text-align:right; width:100%;">
+
+    <span data-toggle="modal" data-target="#themmoiChuDe" class="btn btn-dark"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Thêm mới</span>
+
+</div>
+<div class="modal fade" id="themmoiChuDe" role="dialog">
+
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                <h4 class="modal-title"><span id="tieude">Thêm thông tin chủ đề</span></h4>
+
+            </div>
+
+            <div class="modal-body" style="padding: 10px 10px;">
+
+                <div class="row">
+
+                    <div class="col-md-3">
+
+                        Tên chủ đề<span style="color:red">(*)</span>
+
+                    </div>
+
+                    <div class="col-md-9">
+
+                        <input type="text" id="tenChuDe" data-val="true" data-val-required="Bạn cần nhập loại" class="form-control"><span id="error" style="color:red;"></span>
+
+                    </div>
+
+                </div>
+
+                <br>
+
+                <div class="row">
+
+                    <div class="col-md-3">
+
+                        Mô tả
+
+                    </div>
+
+                    <div class="col-md-9">
+
+<textarea rows="5" id="moTa" @*data-val="true"*@ @*data-val-required="Bạn cần nhập tên loại"*@ class="form-control"></textarea><span id="error" style="color:red;"></span>
+
+                    </div>
+
+                </div>
+
+                <br />
+
+            </div>
+
+            <div class="modal-footer" style="margin: 0px; padding: 10px 10px;">
+
+                <input id="btnThucHien" type="button" class="btn btn-dark" value="Lưu lại" />
+
+                <button type="button" class="btn btn-default" data-dismiss="modal" title="Đóng giao diện hiện thời" onclick="XoaThongTinForm();">Đóng</button>
+
+                <br />
+
+                <input type="hidden" id="chuDeId" name="chuDeId" />
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
